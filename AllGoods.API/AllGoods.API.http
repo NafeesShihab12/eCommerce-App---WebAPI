@@ -1,0 +1,6 @@
+@AllGoods.API_HostAddress = http://localhost:5216
+
+GET {{AllGoods.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
