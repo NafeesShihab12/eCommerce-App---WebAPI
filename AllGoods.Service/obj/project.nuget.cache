@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "HmSKMR+0XvCtomEWbN8Ob+197ABvycaLTiEprbFZ/7ZT3LBON2U4jQVFf+UndM5gpZk63Wn20ru3GFu9nXufFQ==",
+  "dgSpecHash": "nx0Hwy0RRb1MGxHVKQjcNs/JoJh4CNEONA+bKKd8ALB1Bfl7ndvvOyle9bTaQDULoU/im8WVASQkHILql9QDBA==",
   "success": true,
   "projectFilePath": "C:\\Users\\USER\\source\\repos\\AllGoodsE-CommerceProject\\AllGoods.Service\\AllGoods.Service.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\USER\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

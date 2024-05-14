@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AllGoods.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4ca57fcec18291c0bd62f21a9f24093c64c6c248")]
 [assembly: System.Reflection.AssemblyProductAttribute("AllGoods.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AllGoods.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
