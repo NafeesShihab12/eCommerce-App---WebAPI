@@ -10,7 +10,8 @@ namespace AllGoods.Repository.Models
     {
         public int ValueID { get; set; }
         public int AttributeID { get; set; }
-        public string Value { get; set; }
-        public VariantAttribute Attribute { get; set; }
+        public string? Value { get; set; }
+        public VariantAttribute? VariantAttribute { get; set; }
+        public ICollection<Variant>? Variants { get; set; }
     }
 }

@@ -10,9 +10,10 @@ namespace AllGoods.Repository.Models
     {
         public int OrderItemID { get; set; }
         public int VariantID { get; set; }
+        public Variant? Variant { get; set; }
         public decimal UnitPrice { get; set; }
         public int Quantity { get; set; }
         public decimal VariantAmount { get; set; }
-        public Variant Variant { get; set; }
+        public ICollection<Order>? Orders { get; set; }
     }
 }

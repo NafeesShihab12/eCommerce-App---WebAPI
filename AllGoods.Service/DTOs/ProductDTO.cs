@@ -9,8 +9,8 @@ namespace AllGoods.Service.DTOs
     public class ProductDTO
     {
         public int ProductID { get; set; }
-        public string Name { get; set; }
-        public string SEOName { get; set; }
-        public List<VariantDTO> Variants { get; set; }
+        public string? Name { get; set; }
+        public string? SEOName { get; set; }
+        public List<VariantDTO>? Variants { get; set; }
     }
 }

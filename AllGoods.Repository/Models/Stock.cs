@@ -12,7 +12,7 @@ namespace AllGoods.Repository.Models
         public int VariantID { get; set; }
         public int WarehouseID { get; set; }
         public int Quantity { get; set; }
-        public Variant Variant { get; set; }
-        public Warehouse Warehouse { get; set; }
+        public Variant? Variant { get; set; }
+        public Warehouse? Warehouse { get; set; }
     }
 }

@@ -1,0 +1,13 @@
+C:\Users\USER\source\repos\AllGoodsE-CommerceProject\AllGoods.Repository\bin\Debug\net8.0\AllGoods.Repository.deps.json
+C:\Users\USER\source\repos\AllGoodsE-CommerceProject\AllGoods.Repository\bin\Debug\net8.0\AllGoods.Repository.dll
+C:\Users\USER\source\repos\AllGoodsE-CommerceProject\AllGoods.Repository\bin\Debug\net8.0\AllGoods.Repository.pdb
+C:\Users\USER\source\repos\AllGoodsE-CommerceProject\AllGoods.Repository\obj\Debug\net8.0\AllGoods.Repository.csproj.AssemblyReference.cache
+C:\Users\USER\source\repos\AllGoodsE-CommerceProject\AllGoods.Repository\obj\Debug\net8.0\AllGoods.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\source\repos\AllGoodsE-CommerceProject\AllGoods.Repository\obj\Debug\net8.0\AllGoods.Repository.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\AllGoodsE-CommerceProject\AllGoods.Repository\obj\Debug\net8.0\AllGoods.Repository.AssemblyInfo.cs
+C:\Users\USER\source\repos\AllGoodsE-CommerceProject\AllGoods.Repository\obj\Debug\net8.0\AllGoods.Repository.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\AllGoodsE-CommerceProject\AllGoods.Repository\obj\Debug\net8.0\AllGoods.Repository.sourcelink.json
+C:\Users\USER\source\repos\AllGoodsE-CommerceProject\AllGoods.Repository\obj\Debug\net8.0\AllGoods.Repository.dll
+C:\Users\USER\source\repos\AllGoodsE-CommerceProject\AllGoods.Repository\obj\Debug\net8.0\refint\AllGoods.Repository.dll
+C:\Users\USER\source\repos\AllGoodsE-CommerceProject\AllGoods.Repository\obj\Debug\net8.0\AllGoods.Repository.pdb
+C:\Users\USER\source\repos\AllGoodsE-CommerceProject\AllGoods.Repository\obj\Debug\net8.0\ref\AllGoods.Repository.dll

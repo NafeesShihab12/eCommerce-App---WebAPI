@@ -1,0 +1,16 @@
+C:\Users\USER\source\repos\AllGoodsE-CommerceProject\AllGoods.Service\bin\Debug\net8.0\AllGoods.Service.deps.json
+C:\Users\USER\source\repos\AllGoodsE-CommerceProject\AllGoods.Service\bin\Debug\net8.0\AllGoods.Service.dll
+C:\Users\USER\source\repos\AllGoodsE-CommerceProject\AllGoods.Service\bin\Debug\net8.0\AllGoods.Service.pdb
+C:\Users\USER\source\repos\AllGoodsE-CommerceProject\AllGoods.Service\bin\Debug\net8.0\AllGoods.Repository.dll
+C:\Users\USER\source\repos\AllGoodsE-CommerceProject\AllGoods.Service\bin\Debug\net8.0\AllGoods.Repository.pdb
+C:\Users\USER\source\repos\AllGoodsE-CommerceProject\AllGoods.Service\obj\Debug\net8.0\AllGoods.Service.csproj.AssemblyReference.cache
+C:\Users\USER\source\repos\AllGoodsE-CommerceProject\AllGoods.Service\obj\Debug\net8.0\AllGoods.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\source\repos\AllGoodsE-CommerceProject\AllGoods.Service\obj\Debug\net8.0\AllGoods.Service.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\AllGoodsE-CommerceProject\AllGoods.Service\obj\Debug\net8.0\AllGoods.Service.AssemblyInfo.cs
+C:\Users\USER\source\repos\AllGoodsE-CommerceProject\AllGoods.Service\obj\Debug\net8.0\AllGoods.Service.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\AllGoodsE-CommerceProject\AllGoods.Service\obj\Debug\net8.0\AllGoods.Service.sourcelink.json
+C:\Users\USER\source\repos\AllGoodsE-CommerceProject\AllGoods.Service\obj\Debug\net8.0\AllGoods.56C3D125.Up2Date
+C:\Users\USER\source\repos\AllGoodsE-CommerceProject\AllGoods.Service\obj\Debug\net8.0\AllGoods.Service.dll
+C:\Users\USER\source\repos\AllGoodsE-CommerceProject\AllGoods.Service\obj\Debug\net8.0\refint\AllGoods.Service.dll
+C:\Users\USER\source\repos\AllGoodsE-CommerceProject\AllGoods.Service\obj\Debug\net8.0\AllGoods.Service.pdb
+C:\Users\USER\source\repos\AllGoodsE-CommerceProject\AllGoods.Service\obj\Debug\net8.0\ref\AllGoods.Service.dll

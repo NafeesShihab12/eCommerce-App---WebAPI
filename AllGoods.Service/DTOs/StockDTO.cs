@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AllGoods.Repository.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,5 +13,7 @@ namespace AllGoods.Service.DTOs
         public int VariantID { get; set; }
         public int WarehouseID { get; set; }
         public int Quantity { get; set; }
+        public Variant? Variant { get; set; }
+        public Warehouse? Warehouse { get; set; }
     }
 }

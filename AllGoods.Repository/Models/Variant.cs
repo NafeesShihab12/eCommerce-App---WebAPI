@@ -10,11 +10,13 @@ namespace AllGoods.Repository.Models
     {
         public int VariantID { get; set; }
         public int ProductID { get; set; }
+        public Product? Product { get; set; }
         public int AttributeID { get; set; }
+        public VariantAttribute? VariantAttribute { get; set; }
         public int ValueID { get; set; }
+        public VariantAttributeValue? VariantAttributeValue { get; set; }
         public DateTime Created_On { get; set; }
-        public Product Product { get; set; }
-        public VariantAttribute Attribute { get; set; }
-        public VariantAttributeValue Value { get; set; }
+        public ICollection<Stock>? Stocks { get; set; }
+        public ICollection<OrderItem>? OrderItems { get; set; }
     }
 }

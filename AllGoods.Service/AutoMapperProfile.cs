@@ -21,6 +21,7 @@ namespace AllGoods.Service
             CreateMap<Warehouse, WarehouseDTO>();
             CreateMap<Order, OrderDTO>();
             CreateMap<OrderItem, OrderItemDTO>();
+            CreateMap<ProductFilter, ProductFilterDTO>();
         }
 
     }
