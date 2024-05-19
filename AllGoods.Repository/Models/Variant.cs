@@ -15,7 +15,7 @@ namespace AllGoods.Repository.Models
         public VariantAttribute? VariantAttribute { get; set; }
         public int ValueID { get; set; }
         public VariantAttributeValue? VariantAttributeValue { get; set; }
-        public DateTime Created_On { get; set; }
+        public DateOnly Created_On { get; set; }
         public ICollection<Stock>? Stocks { get; set; }
         public ICollection<OrderItem>? OrderItems { get; set; }
     }

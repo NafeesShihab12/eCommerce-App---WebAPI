@@ -18,10 +18,10 @@ namespace AllGoods.Repository.Context
         public DbSet<VariantAttribute> VariantAttributes { get; set; }
         public DbSet<VariantAttributeValue> VariantAttributeValues { get; set; }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseNpgsql("EComDb_Connection_String");
-        }
+        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //{
+        //    optionsBuilder.UseNpgsql("EComDb_Connection_String");
+        //}
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -100,7 +100,7 @@ namespace AllGoods.Repository.Context
                 entity.HasOne(e => e.VariantAttributeValue)
                     .WithMany(v => v.Variants)
                     .HasForeignKey(e => e.ValueID);
-                entity.Property(e => e.Created_On).IsRequired().HasColumnType("datetime");
+                entity.Property(e => e.Created_On).IsRequired();
             });
         }
     }

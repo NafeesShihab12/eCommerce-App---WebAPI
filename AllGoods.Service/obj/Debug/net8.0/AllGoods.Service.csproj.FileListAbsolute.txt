@@ -14,3 +14,5 @@ C:\Users\USER\source\repos\AllGoodsE-CommerceProject\AllGoods.Service\obj\Debug\
 C:\Users\USER\source\repos\AllGoodsE-CommerceProject\AllGoods.Service\obj\Debug\net8.0\refint\AllGoods.Service.dll
 C:\Users\USER\source\repos\AllGoodsE-CommerceProject\AllGoods.Service\obj\Debug\net8.0\AllGoods.Service.pdb
 C:\Users\USER\source\repos\AllGoodsE-CommerceProject\AllGoods.Service\obj\Debug\net8.0\ref\AllGoods.Service.dll
+C:\Users\USER\source\repos\AllGoodsE-CommerceProject\AllGoods.Service\bin\Debug\net8.0\AllGoods.Service.runtimeconfig.json
+C:\Users\USER\source\repos\AllGoodsE-CommerceProject\AllGoods.Service\obj\Debug\net8.0\AllGoods.Service.genruntimeconfig.cache

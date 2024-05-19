@@ -16,7 +16,7 @@ namespace AllGoods.Service.DTOs
         public VariantAttribute? VariantAttribute { get; set; }
         public int ValueID { get; set; }
         public VariantAttributeValue? VariantAttributeValue { get; set; }
-        public DateTime Created_On { get; set; }
+        public DateOnly Created_On { get; set; }
         public List<StockDTO>? Stocks { get; set; }
         public List<OrderItemDTO>? OrderItems { get; set; }
     }

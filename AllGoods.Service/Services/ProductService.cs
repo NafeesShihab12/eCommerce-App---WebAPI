@@ -15,12 +15,14 @@ namespace AllGoods.Service.Services
         private readonly IMemoryCache _memoryCache;
         private readonly IDatabase _redisCache;
 
-        public ProductService(IProductRepository productRepository, IMapper mapper, IMemoryCache memoryCache, IConnectionMultiplexer redisConnection)
+        public ProductService(IProductRepository productRepository, IMapper mapper, IMemoryCache memoryCache)
+            
+            //IConnectionMultiplexer redisConnection)
         {
             _productRepository = productRepository;
             _mapper = mapper;
             _memoryCache = memoryCache;
-            _redisCache = redisConnection.GetDatabase();
+            //_redisCache = redisConnection.GetDatabase();
         }
 
         public async Task<ProductDTO> GetProductBySEONameAsync(string seoName)
@@ -31,13 +33,13 @@ namespace AllGoods.Service.Services
             if (!_memoryCache.TryGetValue(cacheKey, out ProductDTO productDto))
             {
                 // Try getting the product from Redis cache
-                var redisValue = await _redisCache.StringGetAsync(cacheKey);
-                if (redisValue.HasValue)
-                {
-                    productDto = System.Text.Json.JsonSerializer.Deserialize<ProductDTO>(redisValue);
-                }
-                else
-                {
+                //var redisValue = await _redisCache.StringGetAsync(cacheKey);
+                //if (redisValue.HasValue)
+                //{
+                //    productDto = System.Text.Json.JsonSerializer.Deserialize<ProductDTO>(redisValue);
+                //}
+                //else
+                //{
                     // Get product from the repository
                     var product = await _productRepository.GetProductBySEONameAsync(seoName);
                     if (product == null)
@@ -48,11 +50,11 @@ namespace AllGoods.Service.Services
                     productDto = _mapper.Map<ProductDTO>(product);
 
                     // Store in Redis cache
-                    await _redisCache.StringSetAsync(cacheKey, System.Text.Json.JsonSerializer.Serialize(productDto));
+                    //await _redisCache.StringSetAsync(cacheKey, System.Text.Json.JsonSerializer.Serialize(productDto));
 
                     // Store in memory cache
                     _memoryCache.Set(cacheKey, productDto);
-                }
+            //    }
             }
 
             return productDto;

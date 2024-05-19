@@ -11,3 +11,5 @@ C:\Users\USER\source\repos\AllGoodsE-CommerceProject\AllGoods.Repository\obj\Deb
 C:\Users\USER\source\repos\AllGoodsE-CommerceProject\AllGoods.Repository\obj\Debug\net8.0\refint\AllGoods.Repository.dll
 C:\Users\USER\source\repos\AllGoodsE-CommerceProject\AllGoods.Repository\obj\Debug\net8.0\AllGoods.Repository.pdb
 C:\Users\USER\source\repos\AllGoodsE-CommerceProject\AllGoods.Repository\obj\Debug\net8.0\ref\AllGoods.Repository.dll
+C:\Users\USER\source\repos\AllGoodsE-CommerceProject\AllGoods.Repository\bin\Debug\net8.0\AllGoods.Repository.runtimeconfig.json
+C:\Users\USER\source\repos\AllGoodsE-CommerceProject\AllGoods.Repository\obj\Debug\net8.0\AllGoods.Repository.genruntimeconfig.cache
